@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юлия Даневич](https://up.htmlacademy.ru/htmlcss/31/user/1705933).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Рус](https://htmlacademy.ru/profile/vanillawulf)..
 
 ---
 
