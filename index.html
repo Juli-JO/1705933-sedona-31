@@ -6,7 +6,136 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header>
+      <nav>
+        <img src="img/logo.svg" width="138" height="70" alt="logo">
+        <ul>
+          <li><a href="blank.html">Информация</a></li>
+          <li><a href="catalog.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="blank.html">Гостинницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div>
+        <h1>Седона</h1>
+      </div>
 
-  </body>
+      <div>
+        <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p> Расмотри 5 причин, по которым седона кречу, чем гранд каньйон!</p>
+      </div>
+
+    <section>
+      <ul>
+       <li>
+         <h3>Настоящий городок</h3>
+         <span>— №1 —</span>
+         <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p> 
+         <img src="img/image1.svg" alt="city">
+       </li>
+        <div>
+          <ul>
+            <li>
+              <h3>Жильё</h3>
+              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+             </li>
+            <li>
+              <h3>Еда</h3>
+              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+             </li>
+            <li>
+              <h3>Сувениры</h3>
+              <p>Не только китайского, но и местного производства!</p>
+             </li>
+          </ul>
+        </div>
+       <li>
+         <h3>Там есть Мост дьявола</h3>
+         <span>— №2 —</span>
+         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p> 
+         <img src="img/image2.svg" alt="devil-bridge">
+       </li>
+
+       <li>
+        <h3>Небольшая площадь</h3>
+        <span>— №3 —</span>
+        <p>все достопримечательности находятся очень близко</p> 
+      </li>
+
+      <li>
+        <h3>Красивая дорога</h3>
+        <span>— №4 —</span>
+        <p>ехать в седону из лас-вегаса совсем не скучно!</p> 
+      </li>
+
+      <li>
+        <h3>Мало туристов</h3>
+        <span>— №5 —</span>
+        <p>большинство едет в гранд каньон и толпится там</p> 
+      </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Заинтересовались?</h2>
+      <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+      <form action="">
+      <p>
+       <label for="appointment-date">Дата заезда</label>
+       <input id="appointment-date" type="text" name="date" placeholder="24 апреля 2021">
+       <button>calendar</button>
+      </p>
+      <p>
+       <label for="departure-date">Дата выезда</label>
+       <input id="departure-date" type="text" name="date" placeholder="4 июня 2021">
+       <button>calendar</button>
+      </p>
+      <p>
+       <label for="appointment-adults">Взрослые</label>
+       <button>-</button>
+       <input id="appointment-adults" type="text" name="adults" value="2">
+       <button>+</button>
+      </p>
+      <p>
+       <label for="appointment-kids">Дети</label>
+       <button>-</button>
+       <input id="appointment-kids" type="text" name="kids" value="0">
+       <button>+</button>
+     </p>
+       <button>Найти</button>
+      </form>
+    </section>
+
+    </main>
+  
+  <section>
+    <h2>Здесь будет карта!</h2>
+    <!-- map -->
+  </section>
+  <footer>
+    <section>
+      <h2>Как нас найти?</h2>
+      <p>#visitSEDONA <br>
+        +7 800 555-86-28
+      </p>
+   </section>
+   <section>
+     <h3>Давайте дружить!</h3>
+      <ul>
+        <li><a href="#">twitter</a></li>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">insta</a></li>
+      </ul>
+   </section>
+    <p>
+      Website by
+      <a href="https://htmlacademy.ru">HTML academy</a>
+    </p>
+  </footer>
+  
+</body>
 </html>
