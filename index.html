@@ -32,11 +32,12 @@
       <ul>
        <li>
          <h3>Настоящий городок</h3>
-         <span>— №1 —</span>
+         <span> №1 </span>
          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p> 
-         <img src="img/image1.svg" alt="city">
+         <img src="img/sedonacity.png" alt="city">
        </li>
-        <div>
+        <article>
+          <h2>Приемущества города</h2>
           <ul>
             <li>
               <h3>Жильё</h3>
@@ -51,29 +52,29 @@
               <p>Не только китайского, но и местного производства!</p>
              </li>
           </ul>
-        </div>
+        </article>
        <li>
          <h3>Там есть Мост дьявола</h3>
-         <span>— №2 —</span>
+         <span> №2 </span>
          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p> 
-         <img src="img/image2.svg" alt="devil-bridge">
+         <img src="img/devilbridge.png" alt="devil-bridge">
        </li>
 
        <li>
         <h3>Небольшая площадь</h3>
-        <span>— №3 —</span>
+        <span> №3 </span>
         <p>все достопримечательности находятся очень близко</p> 
       </li>
 
       <li>
         <h3>Красивая дорога</h3>
-        <span>— №4 —</span>
+        <span> №4 </span>
         <p>ехать в седону из лас-вегаса совсем не скучно!</p> 
       </li>
 
       <li>
         <h3>Мало туристов</h3>
-        <span>— №5 —</span>
+        <span> №5 </span>
         <p>большинство едет в гранд каньон и толпится там</p> 
       </li>
       </ul>
@@ -82,28 +83,28 @@
     <section>
       <h2>Заинтересовались?</h2>
       <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+      <button type="button">Поиск гостинницы в Седоне</button>
       <form action="">
       <p>
        <label for="appointment-date">Дата заезда</label>
-       <input id="appointment-date" type="text" name="date" placeholder="24 апреля 2021">
+       <input id="appointment-date" type="date" name="date" placeholder="24 апреля 2021">
        <button>calendar</button>
       </p>
       <p>
        <label for="departure-date">Дата выезда</label>
-       <input id="departure-date" type="text" name="date" placeholder="4 июня 2021">
+       <input id="departure-date" type="date" name="date" placeholder="4 июня 2021">
        <button>calendar</button>
       </p>
       <p>
        <label for="appointment-adults">Взрослые</label>
        <button>-</button>
-       <input id="appointment-adults" type="text" name="adults" value="2">
+       <input id="appointment-adults" type="number" name="adults" value="2">
        <button>+</button>
       </p>
       <p>
        <label for="appointment-kids">Дети</label>
        <button>-</button>
-       <input id="appointment-kids" type="text" name="kids" value="0">
+       <input id="appointment-kids" type="number" name="kids" value="0">
        <button>+</button>
      </p>
        <button>Найти</button>
@@ -112,11 +113,11 @@
 
     </main>
   
+  <footer>
   <section>
     <h2>Здесь будет карта!</h2>
     <!-- map -->
   </section>
-  <footer>
     <section>
       <h2>Как нас найти?</h2>
       <p>#visitSEDONA <br>
