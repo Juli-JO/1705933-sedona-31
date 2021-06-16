@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic-ext">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page-body">
 
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
         <img src="img/logo.svg" width="138" height="70" alt="logo">
-        <ul>
+        </a>
+        <ul class="site-navigation">
           <li><a href="blank.html">Информация</a></li>
           <li><a href="catalog.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
@@ -19,116 +24,110 @@
       </nav>
     </header>
     
-    <main>
-      <div>
+    <main class="container">
+      <div class="welcome">
         <h1>Седона</h1>
+        <img class="welcome-text" src="img/Welcome.svg" width="457" height="351" alt="Текст приветствия">
       </div>
-
-      <div>
-        <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
-        <p> Расмотри 5 причин, по которым седона кречу, чем гранд каньйон!</p>
+      <div class="welcome-title">
+        <h2 class="title">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p class="title-reasons"> Расмотри 5 причин, по которым седона кречу, чем гранд каньйон!</p>
       </div>
-
-    <section>
-      <ul>
-       <li>
+    <section class="reasons">
+      <ul class="reasons-list">
+       <li class="reasons-item">
          <h3>Настоящий городок</h3>
          <span> №1 </span>
          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p> 
          <img src="img/sedonacity.png" width="800" height="256" alt="city">
        </li>
-        <article>
+        <article class="advantages">
           <h2>Приемущества города</h2>
-          <ul>
-            <li>
+          <ul class="advantages-list">
+            <li class="advantages-item">
               <h3>Жильё</h3>
               <img src="img/iconHome.svg"   width="75" height="72" alt="Home icon">
               <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
              </li>
-            <li>
+            <li class="advantages-item">
               <h3>Еда</h3>
-              <img src="img/iconFood.svg"   width="64" height="77" alt="Food icon">
+              <img src="img/iconFood.svg"  width="64" height="77" alt="Food icon">
               <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
              </li>
-            <li>
+            <li class="advantages-item">
               <h3>Сувениры</h3>
               <img src="img/iconPresents.svg"   width="75" height="72" alt="Present icon">
               <p>Не только китайского, но и местного производства!</p>
              </li>
           </ul>
         </article>
-       <li>
+       <li  class="reasons-item">
          <h3>Там есть Мост дьявола</h3>
          <span> №2 </span>
          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p> 
          <img src="img/devilbridge.png" width="800" height="256" alt="devil-bridge">
        </li>
-
-       <li>
+       <li  class="reasons-item">
         <h3>Небольшая площадь</h3>
         <span> №3 </span>
         <p>все достопримечательности находятся очень близко</p> 
       </li>
-
-      <li>
+      <li  class="reasons-item">
         <h3>Красивая дорога</h3>
         <span> №4 </span>
         <p>ехать в седону из лас-вегаса совсем не скучно!</p> 
       </li>
-
-      <li>
+      <li  class="reasons-item">
         <h3>Мало туристов</h3>
         <span> №5 </span>
         <p>большинство едет в гранд каньон и толпится там</p> 
       </li>
       </ul>
     </section>
-
-    <section>
+    <section class="best-offer">
       <h2>Заинтересовались?</h2>
       <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <button type="button">Поиск гостинницы в Седоне</button>
-      <form action="">
-      <p>
+      <button class="button-hotel-search" type="button">Поиск гостинницы в Седоне</button>
+      <form class="offer-form" action="">
+      <p class="offer-item">
        <label for="appointment-date">Дата заезда</label>
        <input id="appointment-date" type="date" name="date" placeholder="24 апреля 2021">
-       <button>calendar</button>
+       <button class="button-calendar">calendar</button>
       </p>
-      <p>
+      <p class="offer-item">
        <label for="departure-date">Дата выезда</label>
        <input id="departure-date" type="date" name="date" placeholder="4 июня 2021">
-       <button>calendar</button>
+       <button class="button-calendar">calendar</button>
       </p>
-      <p>
+      <p class="offer-item">
        <label for="appointment-adults">Взрослые</label>
-       <button>-</button>
-       <input id="appointment-adults" type="number" name="adults" value="2">
-       <button>+</button>
+       <button class="button-minus">-</button>
+       <input class="small-input" id="appointment-adults" type="number" name="adults" value="2">
+       <button class="button-plus">+</button>
       </p>
-      <p>
+      <p class="offer-item">
        <label for="appointment-kids">Дети</label>
-       <button>-</button>
-       <input id="appointment-kids" type="number" name="kids" value="0">
-       <button>+</button>
+       <button class="button-minus">-</button>
+       <input class="small-input" id="appointment-kids" type="number" name="kids" value="0">
+       <button class="button-plus">+</button>
      </p>
-       <button>Найти</button>
+       <button class="button-search">Найти</button>
       </form>
     </section>
-
     </main>
   
-  <footer>
-  <section>
+  <footer class="main-footer">
+  <section class="map">
     <h2>Здесь будет карта!</h2>
-    <!-- map -->
+    <img src="img/map.png" width="1199" height="594" alt="Местоположение города Седона">
   </section>
-    <section>
+    <section class="footer-location">
       <h2>Как нас найти?</h2>
       <p>#visitSEDONA <br>
         +7 800 555-86-28
       </p>
    </section>
-   <section>
+   <section class="footer-social">
      <h3>Давайте дружить!</h3>
       <ul>
         <li><a href="#">twitter</a></li>
