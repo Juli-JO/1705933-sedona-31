@@ -5,9 +5,11 @@
   --basic-dark: #EEEEEE;
   --basic-grey: #F2F2F2;
   --basic-extra-grey: #666666;
+  --basic-grey-1: #E5E5E5;
   --basic-blue: #81B3D2;
   --basic-white: #ffffff;
   --special:#766357;
+
   
 }
 /* Global */ 
@@ -190,7 +192,10 @@ color: var(--basic-white);
 font-size: 16px;
 line-height: 21px;
 }
-
+.filteres-form {
+display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+}
 .fieldset-filters {
  border: 0;
 }
@@ -202,11 +207,12 @@ line-height: 21px;
 
 .list-filters {
 list-style: none;
+
 } 
 
 /* Catalog results */
 .results {
- background-color: var(--basic-white);
+background-color: var(--basic-white);
 }
 .show-button {
 text-transform: uppercase;
@@ -225,8 +231,9 @@ background-color: var(--basic-white);
 }
 
 .hotel-list {
-list-style: none;
+ list-style: none;
 }    
+
 .link-about {
 text-transform: uppercase;
 background-color: var(--basic-blue);
